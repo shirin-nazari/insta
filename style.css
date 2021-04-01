@@ -50,3 +50,8 @@
   align-self: flex-end;
   justify-self: start;
 }
+.main img {
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+}
