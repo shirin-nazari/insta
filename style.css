@@ -1,0 +1,52 @@
+.container {
+  background-color: rgb(252, 191, 191);
+  width: 98vw;
+  height: 98vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.myinsta {
+  width: 30%;
+  background-color: white;
+  height: 90%;
+  text-align: center;
+  margin: auto;
+}
+.footer {
+  display: flex;
+  height: 90%;
+  justify-content: space-around;
+  align-items: flex-end;
+  position: static;
+}
+.footer img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.footer .fas,
+.far {
+  font-size: 25px;
+  color: rgb(97, 3, 3);
+}
+.header {
+  color: rgb(97, 3, 3);
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: flex-end;
+  position: static;
+}
+
+.header h1 {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.header #fas {
+  display: flex;
+  align-self: flex-end;
+  justify-self: start;
+}
